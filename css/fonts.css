@@ -2985,3 +2985,8 @@
 .icon-vkontakte-rect-1:before { content: '\f069'; } /* 'ï©' */
 .icon-youtube-4:before { content: '\f06a'; } /* 'ïª' */
 .icon-odnoklassniki-rect-1:before { content: '\f06b'; } /* 'ï«' */
+
+
+h2.mb-0.uppercase, h1.large.text-white.uppercase.mb-0, h5.mb-0.text-white.uppercase {
+  font-family: 'Germania One', cursive;
+}
