@@ -1,0 +1,27 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^demogexia\.site$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.demogexia\.site$
+RewriteRule ^discord\/?(.*)$ "https\:\/\/discord\.gg\/aFv7pMf$1" [R=301,L]
+RewriteCond %{HTTP_HOST} ^demogexia\.site$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.demogexia\.site$
+RewriteRule ^store\/?(.*)$ "https\:\/\/demogexia\.buycraft\.net\/$1" [R=301,L]
+RewriteCond %{HTTP_HOST} ^demogexia\.site$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.demogexia\.site$
+RewriteRule ^vote\/link1\/?(.*)$ "https\:\/\/minecraft\-mp\.com\/server\/220889\/vote\/$1" [R=301,L]
+RewriteCond %{HTTP_HOST} ^demogexia\.site$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.demogexia\.site$
+RewriteRule ^vote\/link2\/?(.*)$ "https\:\/\/www\.planetminecraft\.com\/server\/wessex\-network\-srvl\/vote\/$1" [R=301,L]
+RewriteCond %{HTTP_HOST} ^demogexia\.site$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.demogexia\.site$
+RewriteRule ^vote\/link3\/?(.*)$ "https\:\/\/minecraft\-server\.net\/vote\/demogexia\/$1" [R=301,L]
+RewriteCond %{HTTP_HOST} ^demogexia\.site$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.demogexia\.site$
+RewriteRule ^vote\/link4\/?(.*)$ "https\:\/\/topg\.org\/Minecraft\/in\-512164$1" [R=301,L]
+RewriteCond %{HTTP_HOST} ^demogexia\.site$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.demogexia\.site$
+RewriteRule ^vote\/link5\/?(.*)$ "https\:\/\/minecraftservers\.org\/vote\/549109$1" [R=301,L]
+RewriteCond %{HTTP_HOST} ^demogexia\.site$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.demogexia\.site$
+RewriteRule ^vote\/link6\/?(.*)$ "https\:\/\/minecraft\.serverlobby\.io\/en\/server\/demogexia$1" [R=301,L]
+
